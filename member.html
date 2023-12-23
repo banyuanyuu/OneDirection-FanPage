@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Direction</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900;1000&display=swap">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+
+<body>
+<!----------SUB HEADER MEMBER---------->
+    <section class="subheader">
+        <nav>
+            <a href="home.html"><img src="imghome/logo1d_nav.png" alt="Logo One Direction"></a>
+            <div class="navigasi" id="navbar">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="member.html">Member</a></li>
+                    <li><a href="album.html">Album</a></li>
+                    <li><a href="award.html">Award</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Member</h1>
+    </section>
+
+
+<!----------CONTENT MEMBER---------->
+    <section class="band1d" id="band">
+        <div class="band">
+            <h1>ONE DIRECTION MEMBER</h1>
+        </div>
+
+        <div class="theband">
+            <div class="boxband">
+                <a target="_blank" href="imgmember/harrychild.jpeg">
+                    <img src="imgmember/harrychild.jpeg" alt="Harry Style">
+                </a>
+                <h4>Harry Style</h4>
+                <div class="theboxband">
+                    <p>Harry Edward Styles</p>
+                    <p>Redditch, Worcestershire, Inggris, 1 Februari 1994</p>
+                    <p>Penyanyi, penulis lagu, aktor</p>
+                </div>
+            </div>
+            <div class="boxband">
+                <a target="_blank" href="imgmember/zaynchild.jpeg">
+                    <img src="imgmember/zaynchild.jpeg" alt="Zayn Malik">
+                </a>
+                <h4>Zayn Malik</h4>
+                <div class="theboxband">
+                    <p>Zain Javadd Malik</p>
+                    <p>Bradford, West Yorkshire, Inggris, 12 Januari 1993</p>
+                    <p>Penyanyi, penulis lagu</p>
+                </div>
+            </div>
+            <div class="boxband">
+                <a target="_blank" href="imgmember/louischild.jpeg">
+                    <img src="imgmember/louischild.jpeg" alt="Louis Tomlinson">
+                </a>
+                <h4>Louis Tomlinson</h4>
+                <div class="theboxband">
+                    <p>Louis Troy Austin</p>
+                    <p>Doncaster, Inggris, 24 Desember 1991</p>
+                    <p>Penyanyi, penulis lagu</p>
+                </div>
+            </div>
+            <div class="boxband">
+                <a target="_blank" href="imgmember/liamchild.jpeg">
+                    <img src="imgmember/liamchild.jpeg" alt="Liam Payne">
+                </a>
+                <h4>Liam Payne</h4>
+                <div class="theboxband">
+                    <p>Liam James Payne</p>
+                    <p>Wolverhampton, West Midlands, Inggris 29 Agustus 1993</p>
+                    <p>Penyanyi, penulis lagu</p>
+                </div>
+            </div>
+            <div class="boxband">
+                <a target="_blank" href="imgmember/niallchild.jpeg">
+                    <img src="imgmember/niallchild.jpeg" alt="Niall Horan">
+                </a>
+                <h4>Niall Horan</h4>
+                <div class="theboxband">
+                    <p>Niall James Horan</p>
+                    <p>	Mullingar, Irlandia, 13 September 1993</p>
+                    <p>Penyanyi, penulis lagu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!----------FOOTER---------->
+    <section class="footer">
+        <div class="sosmed">
+            <div class="aboutme">
+                <a href="aboutme.html"><i class="fa-solid fa-circle-info"></i>About Me</a>
+            </div>
+            <div class="thesosmed">
+                <a href="https://www.instagram.com/banyuanyuu" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/banyu-bening-16834b283/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>made with <i class="fa-regular fa-heart"></i> by nyubee<br>&copy; 2023 OneDirection FanPage. All rights reserved.</p>
+        </div>
+    </section>
+
+
+    
+<!--=======JAVASCRIPT FOR MENU=======-->
+<script>
+    var navbar = document.getElementById("navbar");
+    function showMenu(){
+        navbar.style.right = "0";
+    }
+    function hideMenu(){
+        navbar.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

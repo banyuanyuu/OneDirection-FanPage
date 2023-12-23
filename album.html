@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Direction</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900;1000&display=swap">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+
+<body>
+<!----------SUB HEADER ALBUM---------->
+    <section class="subheader">
+        <nav>
+            <a href="home.html"><img src="imghome/logo1d_nav.png" alt="Logo One Direction"></a>
+            <div class="navigasi" id="navbar">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="member.html">Member</a></li>
+                    <li><a href="album.html">Album</a></li>
+                    <li><a href="award.html">Award</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Album</h1>
+    </section>
+
+
+<!----------CONTENT ALBUM------------->
+    <section class="album1d" id="album">
+        <div class="album">
+            <h1>ONE DIRECTION ALBUM</h1>
+        </div>
+
+        <div class="thealbum">
+            <div class="boxalbum">
+                <div class="theboximg">
+                    <img src="imgalbum/alb_upallnight_1.jpeg" alt="Up All Night">
+                </div>
+                <div class="theboxalbum">
+                    <h4>Up All Night</h4>
+                </div>
+            </div>
+            <div class="boxalbum">
+                <div class="theboximg">
+                    <img src="imgalbum/alb_takemehome_1.jpeg" alt="Take Me Home">
+                </div>
+                <div class="theboxalbum">
+                    <h4>Take Me Home</h4>
+                </div>
+            </div>
+            <div class="boxalbum">
+                <div class="theboximg">
+                    <img src="imgalbum/alb_midnightmemories_1.jpeg" alt="Midnight Memories">
+                </div>
+                <div class="theboxalbum">
+                    <h4>Midnight Memories</h4>
+                </div>
+            </div>
+            <div class="boxalbum">
+                <div class="theboximg">
+                    <img src="imgalbum/alb_four_1.jpeg" alt="Four">
+                </div>
+                <div class="theboxalbum">
+                    <h4>Four</h4>
+                </div>
+            </div>
+            <div class="boxalbum">
+                <div class="theboximg">
+                    <img src="imgalbum/alb_madeintheam_1.jpeg" alt="Made in The A.M.">
+                </div>
+                <div class="theboxalbum">
+                    <h4>Made in The A.M.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<!----------FOOTER---------->
+<section class="footer">
+    <div class="sosmed">
+        <div class="aboutme">
+            <a href="aboutme.html"><i class="fa-solid fa-circle-info"></i>About Me</a>
+        </div>
+        <div class="thesosmed">
+            <a href="https://www.instagram.com/banyuanyuu" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/banyu-bening-16834b283/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p>made with <i class="fa-regular fa-heart"></i> by nyubee<br>&copy; 2023 OneDirection FanPage. All rights reserved.</p>
+    </div>
+</section>
+
+
+    
+<!--=======JAVASCRIPT FOR MENU=======-->
+<script>
+    var navbar = document.getElementById("navbar");
+    function showMenu(){
+        navbar.style.right = "0";
+    }
+    function hideMenu(){
+        navbar.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

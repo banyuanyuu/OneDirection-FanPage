@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Direction</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900;1000&display=swap">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+
+<body>
+<!----------SUB HEADER ABOUTME---------->
+    <section class="subheader">
+        <nav>
+            <a href="home.html"><img src="imghome/logo1d_nav.png" alt="Logo One Direction"></a>
+            <div class="navigasi" id="navbar">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="member.html">Member</a></li>
+                    <li><a href="album.html">Album</a></li>
+                    <li><a href="award.html">Award</a></li>
+                </ul>
+            </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+        <h1>About Me</h1>
+    </section>
+
+
+<!------------CONTENT ABOUTME------------>
+    <section class="boxme">
+        <div class="theboxme">
+            <img src="imgaboutme/banyu.jpg" alt="Banyu Bening Luhpermataku">
+            <h3>Banyu Bening Luhpermataku</h3>
+            <p>College Student</p>
+        </div>
+
+        <div class="boxmecontent">
+            <p>
+                Banyu Bening Luhpermataku, atau yang akrab dipanggil Banyu, adalah seseorang yang memiliki minat dan bakat dalam seni tari 
+                tradisional. Di luar itu, hobi utamanya adalah mendengarkan musik. Bagi Banyu, satu hari tanpa musik terasa tak lengkap. Motivasi 
+                hidupnya tercermin dalam semangatnya yang sederhana namun kuat, 'sedikit berbicara, banyak bekerja'. Kehidupannya dipenuhi dengan 
+                semangat untuk terus mengasah bakat seni tari tradisionalnya sambil menggali inspirasi dari alunan musik yang tak pernah lepas dari 
+                kesehariannya.
+            </p>
+            <br>
+            <p>
+                Role modelnya adalah Maudy Ayunda. Bagi Banyu, Maudy Ayunda menjadi role model karena prestasinya dalam seni yang menginspirasi 
+                dan sikap rendah hatinya. Keberhasilannya di dunia seni dan dedikasinya pada pendidikan serta kegiatan sosial memotivasi Banyu 
+                untuk mengejar impian dan memberikan dampak positif bagi diri sendiri, orang lain, maupun lingkungan sekitar.
+            </p>
+        </div>
+    </section>
+    
+
+<!----------FOOTER---------->
+    <section class="footer">
+        <div class="sosmed">
+            <div class="aboutme">
+                <a href="aboutme.html"><i class="fa-solid fa-circle-info"></i>About Me</a>
+            </div>
+            <div class="thesosmed">
+                <a href="https://www.instagram.com/banyuanyuu" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/banyu-bening-16834b283/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>made with <i class="fa-regular fa-heart"></i> by nyubee<br>&copy; 2023 OneDirection FanPage. All rights reserved.</p>
+        </div>
+    </section>
+
+    
+
+<!--=======JAVASCRIPT FOR MENU=======-->
+<script>
+    var navbar = document.getElementById("navbar");
+    function showMenu(){
+        navbar.style.right = "0";
+    }
+    function hideMenu(){
+        navbar.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
